@@ -1,6 +1,9 @@
 import sketch from 'sketch'
 // documentation: https://developer.sketchapp.com/reference/api/
 
+// tail -f ~/Library/Logs/com.bohemiancoding.sketch3/Plugin\ Log.log
+// npm run watch
+
 var UI = require('sketch/ui')
 var Settings = require('sketch/settings')
 
