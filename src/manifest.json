@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Set Base Font Size",
+      "identifier": "sketch-em.set-em-font-size-identifier",
+      "script": "./set-em-font-size.js"
+    },
+    {
+      "name": "Copy Measurements",
+      "identifier": "sketch-em.copy-measurements-identifier",
+      "script": "./copy_measurements.js"
+    }
+  ],
+  "menu": {
+    "title": "sketch-em",
+    "items": [
+      "sketch-em.set-em-font-size-identifier",
+	  "sketch-em.copy-measurements-identifier"
+    ]
+  }
+}
