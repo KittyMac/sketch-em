@@ -180,12 +180,6 @@ export default function() {
 		let leftView = findNextLayerInDirection(artboard.layers, layer, -1, 0)
 		let bottomView = findNextLayerInDirection(artboard.layers, layer, 0, 1)
 		let rightView = findNextLayerInDirection(artboard.layers, layer, 1, 0)
-		
-		console.log(topView)
-		console.log(leftView)
-		console.log(bottomView)
-		console.log(rightView)
-		
 				
 		var scratch = ""
 		scratch += `{\n`
